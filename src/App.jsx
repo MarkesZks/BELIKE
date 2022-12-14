@@ -1,12 +1,16 @@
-import { useState } from 'react'
+import React from "react"
 
-function App() {
-  
+import "../src/style/globalStyle.css"
+
+import LandingPage from "./pages/LandingPage"
+
+
+export default function App() {
   return (
-    <div className="App">
-
-    </div>
+    <>
+      <LandingPage />
+    </>
   )
 }
 
-export default App
+
