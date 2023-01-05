@@ -1,5 +1,4 @@
 
-
 #logo {
   background-color: black;
 }
@@ -17,42 +16,3 @@
   margin-right: 35px;
 }
 
-#botoes-ini>a {
-  margin-right: 40px;
-}
-
-#img-principal {
-  width: 600px;
-  height: 700px;
-}
-
-#section1-txt>h1 {
-  font-size: 40px;
-  font-weight: 600;
-}
-
-#section1-txt>p {
-  font-size: 18px;
-  font-weight: 400;
-  margin-top: 16px;
-  width: 83%;
-}
-
-#botoes-ini {
-  margin-top: 32px;
-}
-
-#btn1 {
-  padding: 12px 32px;
-  background-color: #272727;
-  color: white;
-  font-weight: 500;
-  font-size: 18px;
-}
-
-#btn2 {
-  font-weight: 500;
-  font-size: 18px;
-  color: #272727;
-  text-decoration: underline;
-}

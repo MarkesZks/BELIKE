@@ -1,6 +1,8 @@
 import React from "react"
 import "./style.css"
 
+import { Link } from 'react-router-dom';
+
 import homeSvgfrom from "../../assets/img/home.svg"
 import heartSvgfrom from "../../assets/img/fi_heart.svg"
 import searchSvgfrom from "../../assets/img/fi_search.svg"
@@ -15,9 +17,9 @@ export default function Header() {
           <h2 id="title-logo">BELIKE</h2>
         </div>
         <nav class="flex">
-          <a href="/">Inicio</a>
-          <a href="/">Galeria</a>
-          <a href="/">Contato</a>
+          <Link to="/">Inicio</Link>
+          <Link to="/galeria">Galeria</Link>
+          <Link to="/contato">Contato</Link>
 
           <div id="icons" class="flex">
             <img src={heartSvgfrom} alt="" />
